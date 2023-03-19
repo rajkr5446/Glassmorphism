@@ -1,0 +1,109 @@
+:root {
+    font-size: 20px;
+    box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1.5em;
+}
+
+body {
+    font: 1em/1.618 Inter, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+    min-height: 97vh;
+    /* padding: 30px; */
+
+    color: #224;
+    background: url(./Assets/Background.jpeg) center / cover no-repeat fixed;
+}
+
+.card {
+    max-width: 250px;
+    min-height: 300px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
+}
+
+.connectingText {
+    color: gray;
+    width: 65%;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 0px;
+}
+
+.profile_img {
+    width: 40%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.profile_img:hover {
+    border: 5px solid gray;
+}
+
+.usernameForm {
+    text-align: center;
+}
+
+.btn {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(138,1,218);
+}
+
+.btn:hover {
+    background-color: rgb(236,128,37);
+}
+
+.username {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+span {
+    color: gray;
+    font-size: small;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
